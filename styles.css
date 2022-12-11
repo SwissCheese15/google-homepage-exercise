@@ -1,0 +1,177 @@
+/* styling that applies to all the body */
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* styling for the header section of the page.
+Not the same as "head" with metadata */
+#page-header {
+    cursor: pointer;
+    width: 100%;
+    height: 5%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* "Gmail" and "Images" links */
+#page-header a {
+    margin: 0px 9px;
+    font-size: 13px;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
+
+/* apps logo */
+#page-header img {
+    height: 18px;
+    width: 18px;
+    margin: 0px 15px;
+}
+
+/* sign in button styling incl. hover*/
+#page-header button {
+margin-right: 8px;
+}
+
+#sign-in-button {
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 4px;
+    height: 36px;
+    width: 115px;
+    border: 0;
+    font-size: 14px;
+}
+
+#sign-in-button:hover {
+    cursor: pointer;
+    background-color: rgba(42,125,233,255);
+}
+
+
+/* Main (middle) part of the page */
+main {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* big colorful google logo */
+#google-logo {
+    margin-bottom: 0px;
+}
+
+/* searchbar and search-logo */
+.search-bar-wrapper {
+    position: relative;
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+#search-icon {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    width: 18px;
+}
+
+#search-bar {
+    height: 44px;
+    width: 584px;
+    font-size: 16px;
+    border-radius:30px;
+    border-width: 1px;
+    border-color:#dfe1e5;
+    border-style: solid;
+    outline: 0;
+    padding-left: 50px;
+}
+
+#search-bar:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+/* search buttons */
+.search-buttons {
+    margin-left: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    color:#3c4043;
+    border-radius: 4px;
+    height: 37px;
+    width: 124px;
+    font-size: 14px;
+    border-width: 0px;
+}
+
+.search-buttons:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+/* language options with diffrent links */
+#language-options {
+    margin-top: 27px;
+    font-size: 13px;
+    color: #4d5156;
+}
+
+#language-options a {
+    behavior: inherit;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+
+/* Footer (bottom) part of the page */
+.page-footer {
+    position: absolute;
+    bottom: 0;
+    color: #70757a;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 11%;
+    display: flex;
+    flex-direction: column;
+}
+
+#country-name {
+    height: 50%;
+    display: flex;
+    padding: 0px 30px;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+#nav-links {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-links-group {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#nav-links-group a {
+    color: #70757a;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 10px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <title>
+            <link rel="shortcut icon" type="image/png" href=images/favicon.png>
+            Google
+        </title>
+    </head>
+    <body>
+        <header id="page-header">    
+            <a href="https://mail.google.com/mail">Gmail</a>
+            <a href="https://images.google.com/">Bilder</a>
+            <!-- google apps button. When hovering over it, it should display app-options-->
+            <img src="images/apps_logo.png" alt="Google Apps Logo">
+            <!-- Google sign in button. If logged in this would be the profile picture -->
+            <a href="https://accounts.google.com"><button type="button" id="sign-in-button">Anmelden</button></a>
+            
+        </header>
+
+        <main>
+            <!-- big colorful google logo -->
+            <img src="images/google_logo.png" alt="Google Logo" id="google-logo">
+            <!-- search bar with little magnifiying glass logo -->
+            <div class="search-bar-wrapper">
+                <!-- title attribute, easy way to get hover text -->
+                <input title="Suche" type="search" id="search-bar">
+                <img src="images/search_icon.png" alt="search icon" id="search-icon">
+            </div>
+            <!-- search buttons -->
+            <div> 
+                <button type="button" class="search-buttons">Google Suche</button>  
+                <button type="button" class="search-buttons">Auf gut Glück!</button>
+            </div>
+            <!-- language options --> 
+            <div id="language-options"> 
+                Google angeboten auf:
+            <!-- links just cosmetic. Won't actually redirect to diffrent languages -->
+                <a href="https://www.google.com">English</a> 
+                <a href="https://www.google.com">Español</a>  
+                <a href="https://www.google.com">Français</a>  
+                <a href="https://www.google.com">Italiano</a>  
+                <a href="https://www.google.com">Rumantsch</a>    
+            </div>
+        </div>
+        </main>
+
+        <footer class="page-footer">
+            <div id="country-name"> <!-- country name -->
+                <p>Schweiz</p>
+            </div>
+            <nav id="nav-links"> <!-- navigational section -->
+                <div class="nav-links-group"> <!-- left oriented links -->
+                    <a href="https://about.google/">Über Google</a>
+                    <a href="https://ads.google.com">Werbeprogramme</a>
+                    <a href="https://www.google.com/services">Unternehmen</a>
+                    <a href="https://www.google.com/search/howsearchworks">Wie funktioniert die Google Suche</a>
+                </div> 
+                <div id="nav-links-group"><!-- right oriented links -->
+                    <a href="https://policies.google.com/privacy">Datenschutzerklärung</a>
+                    <a href="https://policies.google.com/terms">Nutzungsbedingungen</a>
+                    <a href="https://www.google.com/preferences">Einstellungen</a>
+                </div>
+            </nav>
+        </footer>
+    </body>
+</html>
